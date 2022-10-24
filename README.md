@@ -11,6 +11,8 @@ docker build -t openvpn-client .
 
 Copy configuration files into `config` directory
 
+OVPN file has to be named `client.ovpn`
+
 Create and run the container:
 ```shell
 ./start.sh
