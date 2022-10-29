@@ -2,4 +2,4 @@
 
 dante-server.sh &
 
-openvpn --config /home/client.ovpn
+openvpn --config /home/${OVPN_FILE}

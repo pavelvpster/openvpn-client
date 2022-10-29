@@ -10,4 +10,5 @@ docker run \
 	-it \
 	-p 1080:1080 \
 	-v $(pwd)/config:/home \
+	-e OVPN_FILE='client.ovpn' \
 	openvpn-client

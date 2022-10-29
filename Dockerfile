@@ -11,4 +11,6 @@ EXPOSE 1080
 COPY dante-server.sh /usr/bin/
 COPY docker-entrypoint.sh /usr/bin/
 
+ENV OVPN_FILE=client.ovpn
+
 ENTRYPOINT ["docker-entrypoint.sh"]
